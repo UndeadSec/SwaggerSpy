@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/UndeadSec/SwaggerSpy/main/static/logo.png"/>
+<img src="https://raw.githubusercontent.com/UndeadSec/SwaggerSpy/main/static/logo.png" width="200"/>
 </p>
 
 # SwaggerSpy
