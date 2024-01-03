@@ -8,6 +8,10 @@
 
 SwaggerSpy is a tool designed for automated Open Source Intelligence (OSINT) on SwaggerHub. This project aims to streamline the process of gathering intelligence from APIs documented on SwaggerHub, providing valuable insights for security researchers, developers, and IT professionals.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/UndeadSec/SwaggerSpy/main/static/sc.png"/>
+</p>
+
 ### What is Swagger?
 
 Swagger is an open-source framework that allows developers to design, build, document, and consume RESTful web services. It simplifies API development by providing a standard way to describe REST APIs using a JSON or YAML format. Swagger enables developers to create interactive documentation for their APIs, making it easier for both developers and non-developers to understand and use the API.
@@ -95,3 +99,7 @@ Consider following me:
 ## License
 
 SwaggerSpy is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+### Thanks
+
+Special thanks to [@Liodeus](https://github.com/Liodeus) for providing project inspiration through [swaggerHole](https://github.com/Liodeus/swaggerHole).
