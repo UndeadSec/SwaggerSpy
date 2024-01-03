@@ -55,7 +55,7 @@ cd SwaggerSpy
 pip install -r requirements.txt
 ```
 
-2. **Usage:** Run SwaggerSpy with the target SwaggerHub URL.
+2. **Usage:** Run SwaggerSpy with the target search terms (more accurate with domains).
 
 ```bash
 python swaggerspy.py searchterm
