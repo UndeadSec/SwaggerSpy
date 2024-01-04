@@ -50,7 +50,7 @@ To use SwaggerSpy, follow these steps:
 1. **Installation:** Clone the SwaggerSpy repository and install the required dependencies.
 
 ```bash
-git clone https://github.com/your-username/SwaggerSpy.git
+git clone https://github.com/UndeadSec/SwaggerSpy.git
 cd SwaggerSpy
 pip install -r requirements.txt
 ```
