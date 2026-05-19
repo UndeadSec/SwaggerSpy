@@ -38,6 +38,17 @@ regex_patterns = {
 	'slack_token' : r"\"api_token\":\"(xox[a-zA-Z]-[a-zA-Z0-9-]+)\"",
 	'SSH_privKey' : r"([-]+BEGIN [^\s]+ PRIVATE KEY[-]+[\s]*[^-]*[-]+END [^\s]+ PRIVATE KEY[-]+)",
 	'Heroku API KEY' : r'[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}',
+	'slack_webhook' : r'https://hooks\.slack\.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}',
+	'mysql_uri'     : r'mysql:\/\/[a-zA-Z0-9]+:[\w\.\-]+@[\w\.\-]+:\d+\/[a-zA-Z0-9]+',
+	'github_pat'    : r'ghp_[a-zA-Z0-9]{36}',
+	'MySQL URI'     : r'mysql:\/\/[a-zA-Z0-9]+:[\w\.\-]+@[\w\.\-]+:\d+\/[a-zA-Z0-9]+',
+	'Generic Secret Key (Base64)'    : r'`(?i)secret[_-]?(key',
+	'API Key Generic'  : r'`(?i)(api',
+	'MD5 Hash (Potential Key)'   : r'[a-f0-9]{32}',
+	'NPM Access Token'  : r'npm_[a-zA-Z0-9]{36}',
+	'GitHub Personal Access Token (PAT)'  : r'ghp_[a-zA-Z0-9]{36}',
+	'Git Credential'  : r'https?:\/\/[a-zA-Z0-9_-]+:[a-zA-Z0-9_-]+@github\.com',
+	'JIRA Personal Access Token (PAT) Regex'  : r'ATATTAC[a-zA-Z0-9]{24,48}'
 	'possible_Creds' : r'(?i)(" \
 					r"password\s*[`=:\"]+\s*[^\s]+|" \
 					r"password is\s*[`=:\"]*\s*[^\s]+|" \
