@@ -48,7 +48,7 @@ regex_patterns = {
 	'NPM Access Token'  : r'npm_[a-zA-Z0-9]{36}',
 	'GitHub Personal Access Token (PAT)'  : r'ghp_[a-zA-Z0-9]{36}',
 	'Git Credential'  : r'https?:\/\/[a-zA-Z0-9_-]+:[a-zA-Z0-9_-]+@github\.com',
-	'JIRA Personal Access Token (PAT) Regex'  : r'ATATTAC[a-zA-Z0-9]{24,48}'
+	'JIRA Personal Access Token (PAT) Regex'  : r'ATATTAC[a-zA-Z0-9]{24,48}',
 	'possible_Creds' : r'(?i)(" \
 					r"password\s*[`=:\"]+\s*[^\s]+|" \
 					r"password is\s*[`=:\"]*\s*[^\s]+|" \
